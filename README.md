@@ -1,4 +1,11 @@
-php-node-serializaion
-=====================
+# PHP Serializer v0.1.0
+## IREUL Guo <m@ireul.me>
 
-Translator between JSON and PHP serialization format for node.js
+# Usage
+
+    srlzr=require 'php-srlzr'
+    val1=srlzr.serialize {
+        name:'name'
+        namm:'namm'
+    }
+    val2=srlzr.deserialize "a:2:i:1:s:1"

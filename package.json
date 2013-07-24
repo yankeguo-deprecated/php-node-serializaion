@@ -1,0 +1,22 @@
+{
+  "name": "php-srlzr",
+  "version": "0.1.0",
+  "description": "JSON PHP Serializaiton format tanslator",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ireulguo/php-node-serializaion.git"
+  },
+  "keywords": [
+    "php",
+    "serialization",
+    "translator"
+  ],
+  "author": "IREUL Guo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ireulguo/php-node-serializaion/issues"
+  }
+}
