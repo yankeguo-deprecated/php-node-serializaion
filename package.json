@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "description": "JSON PHP Serializaiton format tanslator",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/ireulguo/php-node-serializaion.git"
@@ -14,9 +13,34 @@
     "serialization",
     "translator"
   ],
-  "author": "IREUL Guo",
+  "author": {
+    "name": "IREUL Guo"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ireulguo/php-node-serializaion/issues"
-  }
+  },
+  "readme": "# PHP Serializer v0.1.0\n## IREUL Guo <m@ireul.me>\n\n# Usage\n\n    srlzr=require 'php-srlzr'\n    val1=srlzr.serialize {\n        name:'name'\n        namm:'namm'\n    }\n    val2=srlzr.deserialize \"a:2:i:1:s:1\"\n",
+  "readmeFilename": "README.md",
+  "_id": "php-srlzr@0.1.0",
+  "dist": {
+    "shasum": "333262fa5ef3f6aa8dff076709a92a2e38972567",
+    "tarball": "http://registry.npmjs.org/php-srlzr/-/php-srlzr-0.1.0.tgz"
+  },
+  "_from": "php-srlzr@*",
+  "_npmVersion": "1.3.2",
+  "_npmUser": {
+    "name": "ireulguo",
+    "email": "i@ireul.me"
+  },
+  "maintainers": [
+    {
+      "name": "ireulguo",
+      "email": "i@ireul.me"
+    }
+  ],
+  "directories": {},
+  "_shasum": "333262fa5ef3f6aa8dff076709a92a2e38972567",
+  "_resolved": "https://registry.npmjs.org/php-srlzr/-/php-srlzr-0.1.0.tgz",
+  "homepage": "https://github.com/ireulguo/php-node-serializaion"
 }
